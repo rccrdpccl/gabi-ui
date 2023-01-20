@@ -1,0 +1,9 @@
+registry: quay.io
+build_container_image: build
+
+containers:
+  gabi-ui: Dockerfile.build
+
+volumes:
+- $HOME/.docker/:$HOME/.docker
+# - $HOME/.cache/go-build:/go/pkg/mod

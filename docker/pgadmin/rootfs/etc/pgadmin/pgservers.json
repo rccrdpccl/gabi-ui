@@ -1,0 +1,13 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "gabi",
+            "Group": "Servers",
+            "Port": 5432,
+            "Username": "gabi",
+            "Host": "gabi-proxy",
+            "SSLMode": "prefer",
+            "MaintenanceDB": "postgres"
+        }
+    }
+}
